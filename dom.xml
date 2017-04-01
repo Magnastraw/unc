@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <id>1</id>
+        <firstName>Sergey</firstName>
+        <lastName>Sergeev</lastName>
+        <birthDate>14.12.1992</birthDate>
+        <course>3</course>
+    </student>
+    <student>
+        <id>2</id>
+        <firstName>Denis</firstName>
+        <lastName>Denisov</lastName>
+        <birthDate>05.06.1987</birthDate>
+        <course>2</course>
+    </student>
+    <student>
+        <id>3</id>
+        <firstName>Anton</firstName>
+        <lastName>Antonov</lastName>
+        <birthDate>30.10.1993</birthDate>
+        <course>2</course>
+    </student>
+    <student>
+        <id>4</id>
+        <firstName>Igor</firstName>
+        <lastName>Igorevich</lastName>
+        <birthDate>22.11.1994</birthDate>
+        <course>4</course>
+    </student>
+    <student>
+        <id>5</id>
+        <firstName>Andrey</firstName>
+        <lastName>Andreev</lastName>
+        <birthDate>11.22.1994</birthDate>
+        <course>3</course>
+    </student>
+</students>
