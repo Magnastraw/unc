@@ -4,18 +4,18 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Worker implements Runnable {
-    private Queue<Client> queue = new LinkedList<Client>();
+    private volatile Queue<Client> queue = new LinkedList<Client>();
     private int workerId;
 
     public Worker(int id) {
         this.workerId = id;
     }
 
-    public synchronized void addClient(Client client) {
+    public  void addClient(Client client) {
         queue.add(client);
     }
 
-    public synchronized Queue<Client> getQueue() {
+    public  Queue<Client> getQueue() {
         return queue;
     }
 

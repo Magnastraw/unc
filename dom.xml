@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <students>
     <student>
         <id>1</id>
@@ -30,7 +30,7 @@
     </student>
     <student>
         <id>5</id>
-        <firstName>Andrey</firstName>
+        <firstName>Ivan</firstName>
         <lastName>Andreev</lastName>
         <birthDate>11.22.1994</birthDate>
         <course>3</course>
